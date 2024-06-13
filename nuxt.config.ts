@@ -10,7 +10,9 @@ export default defineNuxtConfig({
   ],
 
   hub: {
-    blob: true
+    blob: true,
+    database: true,
+    kv: true
   },
 
   ui: {
